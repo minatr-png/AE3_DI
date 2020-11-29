@@ -6,7 +6,6 @@
  * @flow strict-local
  */
 
-//import { Icon } from 'react-native-elements';
 import React, { Component } from 'react';
 import {
   StyleSheet,
@@ -14,6 +13,7 @@ import {
   Text,
   Image,
 } from 'react-native';
+//import { Navegacio } from './components/navegacio/Navegacio';
 
 class App extends Component {
   render() {
@@ -52,36 +52,6 @@ class App extends Component {
               <Text style={styles.sectionTextText}>CLICK TO FIND</Text>
               <Text style={styles.sectionTextText}>SOME ASSOCIATIONS</Text>
               <Text style={styles.sectionTextText}>THAT WILL HELP YOU</Text>
-            </View>
-          </View>  
-          <View style={styles.barraMenu}>
-            <View style={styles.halfContainer}>
-              <Image
-                    style={styles.icon}
-                    source={{
-                      uri:
-                        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F130%2F130188.png&f=1&nofb=1',
-                    }}
-              />
-              <Image
-                    style={styles.icon}
-                    source={{
-                      uri:
-                        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Fe%2Fe6%2FHome_Icon.svg%2F1024px-Home_Icon.svg.png&f=1&nofb=1',
-                    }}
-              />
-              <Image
-                    style={styles.icon}
-                    source={{
-                      uri:
-                        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Ffree%2Fpng-256%2Fdollar-sign-currency-income-omy-money-finance-symbol-44624.png&f=1&nofb=1',
-                    }}
-              />
-            </View>
-            <View style={styles.halfContainer}>
-              <Text style={styles.bottomBoxText}>Events</Text>
-              <Text style={styles.bottomBoxText}>Home</Text>
-              <Text style={styles.bottomBoxText}>Bets</Text>
             </View>
           </View>  
       </View>
